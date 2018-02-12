@@ -1,0 +1,19 @@
+
+.kotak{
+	width: 100%;
+	min-height: 768px;
+	background-color: #ff0000;
+	position: relative;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+.kotak:before{
+	content: " ";
+	display: block;
+	position: relative;
+	width: 200%;
+	min-height: 100px;
+	background-color: #fff;
+	transform:rotate(2deg);
+}
